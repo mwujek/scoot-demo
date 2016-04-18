@@ -1,0 +1,148 @@
+body {
+  font-family: "proxima-nova", sans-serif;
+  font-family: "proxima-nova-soft", sans-serif;
+  font-weight: 400;
+  color: #483D3D;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background: url(../img/map.png); }
+
+body,
+html {
+  height: 100%;
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern";
+  -webkit-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern";
+  -moz-font-feature-settings: "kern=1";
+  font-kerning: normal;
+  -webkit-font-kerning: normal;
+  -moz-font-kerning: normal; }
+
+.row {
+  width: 100%;
+  display: table;
+  table-layout: fixed; }
+
+.col {
+  display: table-cell; }
+
+.container {
+  background: rgba(0, 0, 0, 0.5); }
+
+.cell {
+  width: 100%;
+  height: 75vh;
+  background: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+  padding-bottom: 50px;
+  overflow-y: scroll; }
+  .cell h1 {
+    text-align: center; }
+
+.next-prev-tray {
+  position: absolute;
+  top: auto;
+  bottom: 0px;
+  z-index: 100;
+  background: #efefef;
+  height: 40px;
+  width: 100%;
+  border-top: 1px solid #ccc; }
+  .next-prev-tray .prev-btn {
+    position: absolute;
+    left: 0px;
+    top: 0px; }
+    .next-prev-tray .prev-btn i {
+      margin-right: 8px;
+      position: relative;
+      top: 1px; }
+  .next-prev-tray .next-btn {
+    position: absolute;
+    right: 0px;
+    top: 0px; }
+    .next-prev-tray .next-btn i {
+      margin-left: 8px;
+      position: relative;
+      top: 1px; }
+  .next-prev-tray .prev-btn, .next-prev-tray .next-btn {
+    z-index: 999;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 10px;
+    cursor: pointer; }
+
+.flickity-page-dots {
+  bottom: -25px;
+  z-index: 200; }
+  .flickity-page-dots .dot {
+    background: #fff; }
+
+.how-to-slider {
+  max-width: 90%;
+  margin: 0 auto; }
+
+.slider-container {
+  height: 100vh;
+  max-width: 90%;
+  margin: 0 auto;
+  padding-top: 60px;
+  box-sizing: border-box; }
+
+.col {
+  vertical-align: middle; }
+
+.flickity-viewport {
+  background: #333; }
+
+.slider-title {
+  width: 100%;
+  position: absolute;
+  height: 40px;
+  top: -39px;
+  line-height: 44px;
+  border-radius: 6px 6px 0px 0px;
+  left: 0px;
+  background: #E53A31; }
+  .slider-title h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 100;
+    font-family: 'proxima-nova';
+    color: #fff;
+    text-align: center; }
+
+.btn {
+  padding: 8px 12px;
+  background: #fff;
+  background: #E53A31;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #fff;
+  font-family: 'proxima-nova';
+  font-weight: 100;
+  border: 1px solid #A62A23;
+  border-radius: 4px; }
+
+.white-space-btn {
+  margin: 8px 0px;
+  display: inline-block; }
+
+.cell-info p {
+  font-size: 15px;
+  line-height: 19px; }
+
+.helpful-heading {
+  font-size: 18px;
+  margin-bottom: 4px; }
+
+.cell-links {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+  .cell-links li {
+    margin-bottom: 4px; }
+    .cell-links li a {
+      color: #A62A23; }

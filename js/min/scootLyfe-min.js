@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".how-to-slider").flickity({prevNextButtons:!1,cellSelector:".cell"});var t=$(".next-btn"),e=$(".prev-btn");e.on("click",function(){$(".how-to-slider").flickity("previous")}),t.on("click",function(){$(".how-to-slider").flickity("next")}),$(".how-to-slider").flickity("select",1)});
