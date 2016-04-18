@@ -1,0 +1,10 @@
+$mediaWidth: 800px;
+
+@media (min-width: $mediaWidth) {
+  .how-to-slider{
+    max-width: $mediaWidth - 20;
+  }
+  .safety-img{
+    max-width: 350px !important;
+  }
+}
