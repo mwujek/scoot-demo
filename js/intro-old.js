@@ -74,9 +74,6 @@ $('.how-to-slider').on( 'cellSelect', function() {
     if (page === 0 ){
     	prevBtn.addClass('disabled');
     }
-    if (page === 6 ){
-    	nextBtn.addClass('disabled');
-    }
     if (page === 1 || page === 5){
     	nextBtn.removeClass('disabled');
 		prevBtn.removeClass('disabled');

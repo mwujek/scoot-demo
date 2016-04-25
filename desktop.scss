@@ -7,4 +7,47 @@ $mediaWidth: 800px;
   .safety-img{
     max-width: 350px !important;
   }
+
+.image-heading{
+    background-size: cover !important;
+    height: 20vh;
+    line-height: 20vh;
+    &.image-2x{
+      height: 35vh;
+      line-height: 35vh;
+    }
+    h1{
+      margin: 0;
+      color: #fff;
+      font-size: 32px;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+
+    }
+  }
+
+  .slider-container{
+  padding-top: 80px;
+  box-sizing: border-box;
+}
+
+.back-btn{
+  display: block;
+  padding: 10px 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: $red-primary;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  opacity: 0.4;
+  transition: 0.3s opacity;
+  &:hover{
+    opacity: 1;
+  }
+  i{
+    margin-right: 6px;
+    margin-left: -6px;
+  }
+}
 }

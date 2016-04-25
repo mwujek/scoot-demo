@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".marketing-slider").flickity({imagesLoaded:!0})});
